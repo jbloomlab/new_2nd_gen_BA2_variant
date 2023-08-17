@@ -1,6 +1,6 @@
-# Analysis of spike amino-acid mutations in new second-generation BA.2 variant
+# Analysis of spike amino-acid mutations in BA.2.86 (a new second-generation BA.2 variant)
 
-Small analysis by Jesse Bloom of spike mutations a new second-generation BA.2 variant with large number of mutations.
+Small analysis by Jesse Bloom of spike mutations in BA.2.86, a new second-generation BA.2 variant with large number of mutations.
 
 Some background on the small number of sequences for this variant can be found:
 
@@ -14,14 +14,15 @@ Some background on the small number of sequences for this variant can be found:
 
  - [Marc Johnson's Twitter post](https://twitter.com/SolidEvidence/status/1691070379584815104)
 
-The sequences analyzed in this repo are the first three reported isolates:
+The sequences analyzed in this repo are the first four reported isolates:
 
   - `hCoV-19/Israel/ICH-741198454/2023|EPI_ISL_18096761|2023-07-31`
   - `hCoV-19/Denmark/DCGC-647646/2023|EPI_ISL_18097315|2023-07-31`
   - `hCoV-19/Denmark/DCGC-647676/2023|EPI_ISL_18097345|2023-07-24`
+  - `hCoV-19/USA/MI-UM-10052670540/2023|EPI_ISL_18110065|2023-08-03`
 
 These sequences are downloaded in [./gisaid_seqs](gisaid_seqs), which is not tracked (see acknowledgments of submitters [here](https://epicov.org/epi3/epi_set/230814qu?main=true)).
-Within that subdirectory, the file [./gisaid_seqs/gisaid_hcov-19_2023_08_14_18.csv](gisaid_seqs/gisaid_hcov-19_2023_08_14_18.csv) has the mutations in those sequences called using NextClade.
+Within that subdirectory, the file [./gisaid_seqs/nextclade_muts.csv](gisaid_seqs/nextclade_muts.csv) has the mutations in those sequences called using NextClade.
 
 The file [pango-consensus-sequences_summary.json](pango-consensus-sequences_summary.json) has the clade founder sequences from Cornelius Roemer.
 
