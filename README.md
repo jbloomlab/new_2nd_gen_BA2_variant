@@ -20,8 +20,9 @@ The sequences analyzed in this repo are the first four reported isolates:
   - `hCoV-19/Denmark/DCGC-647646/2023|EPI_ISL_18097315|2023-07-31`
   - `hCoV-19/Denmark/DCGC-647676/2023|EPI_ISL_18097345|2023-07-24`
   - `hCoV-19/USA/MI-UM-10052670540/2023|EPI_ISL_18110065|2023-08-03`
+  - `hCoV-19/England/GSTT-230817LSBC55/2023|EPI_ISL_18111770|2023-08-13`
 
-These sequences are downloaded in [./gisaid_seqs](gisaid_seqs), which is not tracked (see acknowledgments of submitters [here](https://epicov.org/epi3/epi_set/230814qu?main=true)).
+These sequences are downloaded in [./gisaid_seqs](gisaid_seqs), which is not tracked (see acknowledgments of submitters [here](https://epicov.org/epi3/epi_set/230818zh)).
 Within that subdirectory, the file [./gisaid_seqs/nextclade_muts.csv](gisaid_seqs/nextclade_muts.csv) has the mutations in those sequences called using NextClade.
 
 The file [pango-consensus-sequences_summary.json](pango-consensus-sequences_summary.json) has the clade founder sequences from Cornelius Roemer.
